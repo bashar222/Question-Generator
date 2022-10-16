@@ -1,0 +1,97 @@
+The idea of inanimate objects coming to life as intelligent beings have been around for a long time. The ancient Greeks had myths about robots, and Chinese and Egyptian engineers built automatons. The beginnings of modern AI can be traced to classical philosophers’ attempts to describe human thinking as a symbolic system. In 1950, Alan Turning made a proposal ”Can machines think?”. But the field of AI wasn’t formally founded until 1956 at a conference at Dartmouth College, in Hanover, New Hampshire, where the term “artificial intelligence” was coined. Simply saying, AI is a technology that enables systems to demonstrate human-like intelligence. Artificial intelligence is a broad concept to make a machine intelligent. Whether it is a car, robot, or a software application if you want them smart you need AI.
+
+Types of AI:
+
+Examining the ability to imitate natural intelligence, the hardware they use, their application in the real world, Artificial Intelligence can be divided into three parts. Let’s see the types of AI.
+
+Artificial Narrow Intelligence(ANI):
+
+Artificial Narrow Intelligence (ANI) also known as Weak AI is the only type of Artificial Intelligence we have successfully realized today. Narrow AI is programmed to perform a single task like checking the weather, playing chess, facial recognition, driving a car or internet search, and is very intelligent at completing the specific task it is programmed to do. Simply we can admit Narrow AI is goal-oriented. They are designed to work in real-time but they pull information only from a specific dataset. Narrow AI systems are not conscious, sentiment as humans are.
+
+Some examples of Narrow AI:
+
+Rankbrain by Google / Google Search
+Siri by Apple, Alexa by Amazon, Cortana by Microsoft and other virtual assistants
+IBM’s Watson
+Image / facial recognition software
+Disease mapping and prediction tools
+Manufacturing and drone robots
+Email spam filters / social media monitoring tools for dangerous content
+Entertainment or marketing content recommendations based on watch/listen/purchase behavior
+Self-driving cars
+Artificial General Intelligence:
+
+Artificial General Intelligence or Strong AI is a concept of a machine with the ability to mimic human intelligence. AGI can think, understand, and act in a way that is indistinguishable from that of a human in any given situation. This is a sort of AI that we see in sci-fi movies like Avengers, Avatar, Her, etc.
+
+The immense challenge of achieving strong AI is not surprising when you consider that the human brain is the model for creating general intelligence. The lack of comprehensive knowledge on the functionality of the human brain has researchers struggling to replicate basic functions of sight and movement.
+
+Fujitsu-built K, one of the fastest supercomputers, is one of the most notable attempts at achieving strong AI, but considering it took 40 minutes to simulate a single second of neural activity, it is difficult to determine whether or not strong AI will be achieved in our foreseeable future. As image and facial recognition technology advances, it is likely we will see an improvement in the ability of machines to learn and see.
+
+Artificial Super Intelligence:
+
+Oxford philosopher Nick Bostrom defines superintelligence as:
+
+“any intellect that greatly exceeds the cognitive performance of humans in virtually all domains of interest”
+
+Artificial super intelligence (ASI), is the hypothetical AI that doesn’t just mimic or understand human intelligence and behavior. ASI is where machines become self-aware and surpass the capacity of human intelligence and ability. It is the type of AI that will have a great impact on humanity and may lead to the extinction of the human race from the plane.
+
+Now, Let’s dive into the river of Machine Learning.
+
+What is Machine Learning?
+Machine Learning is an application of Artificial Intelligence that enables a system to automatically learn and improve from experience without being explicitly programmed.
+
+In traditional programming, we set up some set of rules and data, and based on that we get relevant answers. But Machine learning takes some data and answers and based on these, it makes some rules and does a specific task which it is made for.
+
+Applications of Machine learning are scattered around us from day to night. YouTube, Spotify, Google Photos, Google Assistant, Amazon Alexa, all reflect ML.
+
+Machine Learning is based on algorithms. These algorithms can be broadly classified into:
+
+Supervised Learning: Imagine you are learning a task under supervision. So, there must be someone who will judge you whether you are getting the right answer. Likewise, in Supervised Learning, there’s a set of fully labeled data while training the ML algorithm.
+
+Fully labeled data signifies each example in the training dataset is tagged with the answer the algorithm should come up with on its own. So, as you can see from the above diagram, it takes labeled data as input, finds out the algorithm, and then tests the new data and predicts the label. Supervised learning is, thus, best suited to problems where there is a set of available reference points or a ground truth with which to train the algorithm. But those aren’t always available.
+
+Unsupervised Learning: Clean, perfectly labeled datasets aren’t easy to come by. And sometimes, researchers are asking the algorithm questions they don’t know the answer to. That’s where unsupervised learning comes in. In unsupervised learning, it’s the main motto is to learn more about the data by the interfering pattern in the dataset. Unsupervised learning is mostly performed as a part of exploratory data analysis.
+
+Notice the above screenshot, it attempts to automatically find structure in the data by extracting useful features and analyzing its structure.
+
+Reinforcement Learning: Video games are full of reinforcement cues. Complete a level and earn a badge. Defeat the bad guy in a certain number of moves and earn a bonus. Step into a trap — game over. These cues help players learn how to improve their performance for the next game. Without this feedback, they would just take random actions around a game environment in the hopes of advancing to the next level. Reinforcement learning operates on the same principle — and actually, video games are a common test environment for this kind of research. In this kind of machine learning, AI agents are attempting to find the optimal way to accomplish a particular goal or improve performance on a specific task. It’s an iterative process: the more rounds of feedback, the better the agent’s strategy becomes. This technique is especially useful for training robots, which make a series of decisions in tasks like steering an autonomous vehicle or managing inventory in a warehouse.
+It’s the right time to go deeper. So,
+
+What is Deep Learning?
+Deep Learning is a Machine Learning technique which is inspired from the process as our brain understands anything through neurons. It filters the input data and processes them through neural layers to predict and classify the information.
+
+
+Most deep learning methods use the Neural Network. As you notice in the above diagram, the structure of the biological neuron and Artificial Neural Network is similar. Deep Learning can be defined as a multi neural network architecture containing a large number of parameters and layers.
+
+Deep learning architectures are classified in the following parts:
+
+Artificial Neural Network(ANN): Artificial Neural Network is the computing system designed to stimulate the way the human brain analyzes and processes information. It is the basis of Artificial Intelligence as it mimics us and solves problems that would prove impossible or difficult for us or statistical standards. ANNs have self-learning capabilities that enable them to produce better results as more data becomes available.
+
+As you can see here, ANN consists of an input layer, some hidden layers, and output layers. The input layer accepts the inputs, the hidden layers process the inputs by applying weights and biases and the output layer produces the result.
+
+Convolutional Neural Network(CNN): Convolutional Neural Network is a Deep Learning algorithm that takes images as input, assigns biases, and weights to various aspects or objects in the image to differentiate them from others.
+
+Architecture of Convolutional Neural Network
+The hidden layers in Convolutional Neural Network(ConvNet) consists of convolutional layers, pooling layers, fully connected layers, and normalization layers. The architecture of a ConvNet is analogous to that of the connectivity pattern of Neurons in the Human Brain and was inspired by the organization of the Visual Cortex. Individual neurons respond to stimuli only in a restricted region of the visual field known as the Receptive Field. A collection of such fields overlap to cover the entire visual area.
+
+Recurrent Neural Network: Recurrent Neural Network is one type of Deep Learning algorithm which is used for sequence prediction problems. RNN is highly successful in the field of Natural Language Processing(NLP).
+
+RNN basic architecture
+Recurrent Neural Network remembers the past and it’s decisions are influenced by what it has learnt from the past. Note: Basic feed forward networks “remember” things too, but they remember things they learnt during training. For example, an image classifier learns what a “1” looks like during training and then uses that knowledge to classify things in production. While RNNs learn similarly while training, in addition, they remember things learnt from prior input(s) while generating output(s).
+
+Now you can make out the differences between Artificial intelligence, Machine Learning, and Deep Learning on your own. For better understanding discover the picture given below to visualize the variance among them.
+
+
+AI is the superset of ML and DL. Whatever deep learning falls under Machine Learning and both of them fall under the field of Artificial Intelligence.
+
+So this was a broad overview of AI and related terms. There are lots of interesting topics in each of these domains which I have discussed and I hope I could ignite a spark in you to explore this very interesting field.
+
+Resources:
+
+https://blogs.nvidia.com/blog/2018/08/02/supervised-unsupervised-learning/#:~:text=In%20a%20supervised%20learning%20model,and%20patterns%20on%20its%20own.
+https://towardsdatascience.com/understanding-the-difference-between-ai-ml-and-dl-cceb63252a6c?gi=b0fe0994842b
+https://codebots.com/artificial-intelligence/the-3-types-of-ai-is-the-third-even-possible
+https://vinodsblog.com/2020/05/17/deep-learning-basics-of-recursive-neural-network/
+https://www.mathworks.com/discovery/deep-learning.html
+https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53
+https://towardsdatascience.com/recurrent-neural-networks-d4642c9bc7ce
