@@ -1,5 +1,5 @@
 # Question-Generator
-### in this project I have created a Question Generator in two ways, the first way by using text only and the second way by using the sentence mapping ,  and we make 4 steps before generating the model.
+### in this project I have created a Question Generator in two ways, the first way by using text only and the second way by using the sentence mapping ,  and we made 4 steps before generating the model.
 ## Steps :
 ### 1- Text preprocessing : remove uncessary sentences and words which will affect the accuracy , such as : emails , number fo pages , punctuations (except comma and dots) and contractions.
 
